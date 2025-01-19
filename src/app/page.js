@@ -204,7 +204,7 @@ export default function Home() {
                   >
                     <div
                       className="card-front w-32 h-32 bg-cover bg-no-repeat rounded-md"
-                      style={{ backgroundImage: `url(/Image.png)` }}
+                      style={{ backgroundImage: `url(/image.png)` }}
                     ></div>
                     <div
                       className="card-back w-32 h-32 bg-cover bg-no-repeat rounded-md"

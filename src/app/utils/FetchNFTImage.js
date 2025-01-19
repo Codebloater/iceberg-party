@@ -27,7 +27,7 @@ const PUDGY_PENGUIN_CONTRACT_ADDRESS =
 export async function fetchNFTMetadata(startToken, limit) {
   const options = {
     method: "GET",
-    url: "https://eth-mainnet.g.alchemy.com/nft/v3/lfH0EEtXj6C04tsODaPwybYd--tbonlE/getNFTsForContract",
+    url: `https://eth-mainnet.g.alchemy.com/nft/v3/lfH0EEtXj6C04tsODaPwybYd--tbonlE/getNFTsForContract`,
     params: {
       contractAddress: PUDGY_PENGUIN_CONTRACT_ADDRESS,
       withMetadata: "true",
